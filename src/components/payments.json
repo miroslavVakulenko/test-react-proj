@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "cardType": "Mastercard",
+    "cardOwner": "Jane Smith",
+    "date": "2024-02-04",
+    "amount": 529,
+    "description": "q48z!aT6&z72",
+    "isPaid": false
+  },
+  {
+    "id": "2",
+    "cardType": "Visa",
+    "cardOwner": "John Doe",
+    "date": "2024-01-20",
+    "amount": 742,
+    "description": "t#4&2x$7z*n&",
+    "isPaid": true
+  },
+  {
+    "id": "3",
+    "cardType": "Visa",
+    "cardOwner": "John Doe",
+    "date": "2024-02-24",
+    "amount": 338,
+    "description": "456789012345",
+    "isPaid": true
+  },
+  {
+    "id": "4",
+    "cardType": "Mastercard",
+    "cardOwner": "Jane Smith",
+    "date": "2024-02-09",
+    "amount": 673,
+    "description": "135790246810",
+    "isPaid": false
+  },
+  {
+    "id": "5",
+    "cardType": "Visa",
+    "cardOwner": "John Doe",
+    "date": "2024-01-15",
+    "amount": 281,
+    "description": "x^3&k(7s*f!y",
+    "isPaid": true
+  },
+  {
+    "id": "6",
+    "cardType": "Mastercard",
+    "cardOwner": "Jane Smith",
+    "date": "2024-02-12",
+    "amount": 914,
+    "description": "890123456789",
+    "isPaid": false
+  },
+  {
+    "id": "7",
+    "cardType": "Visa",
+    "cardOwner": "John Doe",
+    "date": "2024-02-07",
+    "amount": 476,
+    "description": "012345678901",
+    "isPaid": true
+  },
+  {
+    "id": "8",
+    "cardType": "Mastercard",
+    "cardOwner": "Jane Smith",
+    "date": "2024-02-21",
+    "amount": 127,
+    "description": "qazwsxedcrfv",
+    "isPaid": false
+  },
+  {
+    "id": "9",
+    "cardType": "Visa",
+    "cardOwner": "John Doe",
+    "date": "2024-01-28",
+    "amount": 888,
+    "description": "L5t43*s7d#a9",
+    "isPaid": true
+  },
+  {
+    "id": "10",
+    "cardType": "Mastercard",
+    "cardOwner": "Jane Smith",
+    "date": "2024-02-18",
+    "amount": 639,
+    "description": "mnbvcxzlkjhgf",
+    "isPaid": false
+  }
+]
