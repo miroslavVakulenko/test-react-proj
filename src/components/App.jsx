@@ -5,7 +5,7 @@
 import Reader from "./Reader"
 import articles from "./articles.json"
 
-import PaymentCard from "./PaymentCard"
+// import PaymentCard from "./PaymentCard"
 export default function App() {
   return (
     <>
