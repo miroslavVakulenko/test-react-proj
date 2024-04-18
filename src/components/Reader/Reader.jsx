@@ -2,6 +2,7 @@ import { useState } from "react";
 import Controls from "./Controls/Controls";
 import Progress from "./Progress/Progress";
 import ArticleView from "./ArticleView/ArticleView";
+import css from "./Reader.module.css"
 export default function Reader({ items }) {
   const [selectedIdx, setSelectedIdx] = useState(0)
   const handlePrev = () => {
@@ -16,7 +17,7 @@ export default function Reader({ items }) {
   const currentItem = items[selectedIdx];
 
   return (
-    <div>
+    <div className={css.reader}>
       <Controls onPrev={handlePrev} onNext={handleNext} isFirst={isFirst} isLast={isLast} />
       <Progress current={selectedIdx +1} total={totalLength} />
       <ArticleView article={currentItem} />

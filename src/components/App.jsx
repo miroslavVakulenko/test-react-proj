@@ -4,6 +4,9 @@
 // import Toggler from "./Toggler" 
 import Reader from "./Reader/Reader"
 import articles from "./articles.json"
+import ClickCounter from "./ClickCounter/ClickCounter"
+import { useState } from "react"
+import Timer from "./Timer/Timer"
 // import { useState } from "react";
 
 // import PaymentCard from "./PaymentCard"
@@ -38,6 +41,7 @@ export default function App() {
   //     setClicks(clicks + 1);
   //   }
   // }
+  const [isTimerVisible, setIsTimerVisible] = useState(false);
   return (
     <>
       <h1>State in React</h1>
@@ -63,7 +67,11 @@ export default function App() {
     <Toggler/>
     <Toggler/>
     <Toggler /> */}
-      <Reader items={articles} />     
+      <Reader items={articles} /> 
+      {/* useEffect hook */}
+      <ClickCounter />
+      <button onClick={() => setIsTimerVisible(!isTimerVisible)}>{isTimerVisible ? "Hide" : "Show" }</button>
+      {isTimerVisible && <Timer/>}
     </>
   )
 }

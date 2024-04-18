@@ -1,8 +1,11 @@
-export default function ArticleView({article: {topic, text}}) {
+
+import css from "./ArticleView.module.css"
+
+export default function ArticleView({ article: { topic, text } }) {
   return (
-    <article>
-        <h2>{topic}</h2>
-        <p>{text}</p>
+    <article className={css.article}>
+        <h2 className={css.articleHeader}>{topic}</h2>
+        <p className={css.articleText}>{text}</p>
       </article>
   )
 }

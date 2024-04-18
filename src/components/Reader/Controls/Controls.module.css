@@ -1,0 +1,10 @@
+.buttonWrapper{
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  display: block;
+  border-radius: 20px;
+  
+  padding: 5px;
+}
+.button{
+  margin: 5px;
+}

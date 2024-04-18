@@ -1,0 +1,24 @@
+.article {
+  margin:  0 auto;
+  width: 80%;
+  background-color: aquamarine;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.articleHeader{
+  font-size:3em;
+  /* font-weight: 400; */
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.articleText{
+  background-image: linear-gradient(to left, #ababab, #ffffff);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 1.7em;
+}

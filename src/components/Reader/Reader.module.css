@@ -1,0 +1,8 @@
+.reader{
+  width: 80%;
+  border: 2px red solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
